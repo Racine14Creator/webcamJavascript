@@ -35,6 +35,9 @@ h4 {
 
 video {
     width: 100%;
+    background-image: url("./img/video.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
 
