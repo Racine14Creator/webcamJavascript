@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,700;1,300;1,400;1,700&family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,500;1,300;1,400;1,700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,6 +10,14 @@
 
 body {
     background-color: black;
+    font-family: Ubuntu;
+}
+
+h2,
+h1,
+h3,
+h4 {
+    margin: 10px;
 }
 
 .container {
@@ -34,7 +44,6 @@ video {
     background-color: aliceblue;
     padding: 10px;
     border-radius: 20px;
-    /* box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.178); */
     margin-top: 20px;
 }
 
